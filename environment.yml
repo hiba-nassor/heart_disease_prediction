@@ -1,0 +1,14 @@
+name: heart_disease_prediction
+channels:
+  - defaults
+  - conda-forge  
+dependencies:
+  - joblib
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn>=0.24  
+  - pip
+  - pip:
+    - ramp-workflow
+    - imbalanced-learn  
